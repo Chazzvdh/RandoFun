@@ -42,7 +42,7 @@ The /quack command sends a message to all players, making a duck quacking sound.
 - `quack.use` - Required to use the /quack command
 
 ## Installation
-To install RandoFun, simply download the plugin from a trusted source and place it in your server's plugins folder. Then, start or restart your server to activate the plugin.
+To install RandoFun, simply download the JAR file from the GitHub and place it in your server's plugins folder. Then, start or restart your server to activate the plugin.
 
 ## Support
 If you have any issues or questions regarding RandoFun, feel free to reach out for support.
