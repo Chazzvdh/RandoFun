@@ -1,0 +1,24 @@
+name: RandoFun
+version: '${project.version}'
+main: randofun.randofun.RandoFun
+api-version: 1.19
+
+commands:
+  quack:
+    description: Quacks when used
+    usage: /quack
+  boom:
+    description: Player explodes when used
+    usage: /boom [size]
+  hug:
+    description: Hugs the selected player
+    usage: /hug [player] (To hug a player)
+
+permissions:
+  boom.use:
+    description: Allows players to use the /boom command.
+    default: op
+  boom.options:
+    description: Allows players to specify if blocks should be destroyed and fire should be set when using the /boom command.
+    default: op
+
